@@ -74,3 +74,21 @@ Word Counter
 │
 ▼
 Report Generator
+
+Folder Scanner
+│
+▼
+Producer Thread
+│
+▼
+Blocking Queue
+│
+┌────┴────┐
+▼    ▼    ▼
+Consumer Consumer Consumer
+Thread   Thread   Thread
+│        │        │
+└──────Aggregator───┘
+│
+▼
+Report Writer
